@@ -31,7 +31,7 @@ namespace UpdateSydneyCoffee
             double max = double.MinValue;
             string maxName = "";
 
-            Console.WriteLine("\n\t\t\t\tWelcome to Sydney Coffee Program\n");
+            Console.WriteLine("\n\t\t\t\tWelcome to Sydney Coffee Ordering System\n");
 
             for (int i = 0; i < n; i++)
             {
@@ -121,7 +121,7 @@ namespace UpdateSydneyCoffee
             // Save summary to file
             try
             {
-                using (StreamWriter sw = new StreamWriter("SydneyCoffeeSalesSummary.txt"))
+                using (StreamWriter sw = new StreamWriter("CoffeeSalesReport.txt"))
                 {
                     sw.WriteLine("Summary of Sydney Coffee Sales");
                     sw.WriteLine("-------------------------------------------------");
